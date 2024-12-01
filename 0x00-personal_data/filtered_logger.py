@@ -4,9 +4,9 @@ This module provides functionality to filter
 sensitive information in log messages.
 
 It includes:
-- `filter_datum`: A function to obfuscate
+- filter_datum: A function to obfuscate
 specified fields in a log message.
-- `RedactingFormatter`: A logging formatter
+- RedactingFormatter: A logging formatter
 that uses `filter_datum` to redact sensitive fields.
     Obfuscates specified fields in a log message.
 
