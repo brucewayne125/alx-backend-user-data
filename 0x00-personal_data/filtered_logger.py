@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# filter_datum function takes a list of fields to obfuscate, a redaction
+# string, a log message, and a separator.
+# Returns: The obfuscated log message.
 
 import re
 from typing import List
